@@ -1,0 +1,10 @@
+export type ColorBlindType =
+  | 'none'
+  | 'protanomaly'
+  | 'protanopia'
+  | 'deuteranomaly'
+  | 'deuteranopia'
+  | 'tritanomaly'
+  | 'tritanopia'
+  | 'achromatomaly'
+  | 'achromatopsia'

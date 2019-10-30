@@ -1,0 +1,57 @@
+{
+  "name": "coffee-black-egg-white",
+  "version": "1.0.0",
+  "description": "Create color-blind safe palette programmatically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "watch-test": "jest --watchAll"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "color",
+    "colour",
+    "blindness",
+    "simulation",
+    "rgb",
+    "protanomaly",
+    "protanopia",
+    "deuteranomaly",
+    "deuteranopia",
+    "tritanomaly",
+    "tritanopia",
+    "achromatomaly",
+    "achromatopsia",
+    "palette",
+    "ux"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chroma-js": "^2.0.6",
+    "color-blind": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^1.4.3",
+    "@types/jest": "^24.0.20",
+    "@types/node": "^12.11.7",
+    "i": "^0.3.6",
+    "jest": "^24.9.0",
+    "npm": "^6.12.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
